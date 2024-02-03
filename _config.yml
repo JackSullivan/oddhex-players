@@ -43,8 +43,8 @@ sass:
 navbar:
   - name: "Expedition Reports"
     link: "posts"
-      #  - name: "Explored Locales"
-      #    link: "locations"
+  - name: "Explored Locales"
+    link: "locations"
 
 
 collections:
