@@ -18,7 +18,8 @@ the same, though I have tweaked some numbers and harmonized it with Knave. Objec
 
 The character is required to provide upkeep for those in their employ, as well as themselves. This is the foundation of
 all other downtime systems. As time passes, money is owed. This constant drain is the limitation that prevents endlessly
-engaging in downtime.
+engaging in downtime. The lifestyle costs below _do not_ include lodging, which must be paid separately unless a
+character owns or leases property in town.
 
 | Lifestyle | Daily Cost | Live like a | Effects |
 |-----------|-----------:|-------------|---------|
@@ -27,7 +28,7 @@ engaging in downtime.
 | Humble | 20gp | Innkeeper, Craftsman, Mercenary | +1 all saves, +1 morale for all hirelings |
 | Respectable | 40gp | Physician, Merchant, Master Craftsman | Permitted to build/buy real estate in towns |  
 | Wealthy | 100gp | Knight, Courtier, Country Gentry | Permitted to clear territory/build holdings |
-| Minor Noble | 400gp | Baron, Count | Permitted to hold a title and lead bands of more than 50 soldiers |
+| Minor Noble | 400gp | Baron, Count | Permitted to hold a title and lead bands of 50-200 soldiers |
 | Major Noble | 2000gp | Duke, Prince | Permitted to lead bands of any size and rule multiple holdings |
 | Royal | 20,000gp | King, Emperor | Permitted to do whatever is in your power |
 
@@ -69,7 +70,29 @@ shenanigans, singing songs, telling stories, engaging in self-aggrandizement, an
 derring-do, they gain an additional 5% experience from the previous adventure. A Charisma check (with appropriate
 narrative motivation) may increase this bonus to +10%. No other activities may be performed during this time.
 
+### Selling Loot
+
+Alas, treasure is often rather bulky, and if characters were able to liberate it from a dungeon, thieves, tax
+collectors, peasant mobs etc. may well be able to liberate it from then back it town. Best to turn it to something
+useful quick.
+
+The character looking to sell items makes a Charisma check. The size of the city and rarity of the items will modify the
+roll. 
+
+The amount of time it takes to find a buyer varies on the value of the item. An item worth tens of gp takes 1d4 days.
+Hundreds of gp takes 1d6 days. Thousands of gp takes 1d10 days; tens of thousands of gp takes 2d8 days. Hundreds of
+thousands of gold gp 3d12 days. Buyers don't necessarily (or typically) offer the full list price for treasure.
+
 ## Restore and Grow
+
+### Healing
+
+Each day spent in a safe haven (i.e. in a town) doing nothing but resting recovers one slot.
+
+### Relaxation
+
+After being at full health, characters may simply spend their time relaxing. If a week is spent resting, they get +1
+hitpoint per level on their next adventure.
 
 ### Rumors
 
@@ -82,16 +105,6 @@ Spend 1d4×10 gp and make a reaction roll (2d6+CHA). Takes one full day per atte
 | 6-8 | Hear one rumor |
 | 7-11 | Spend another 2d10 gp to hear an extra rumor |
 | 12+ | Hear two rumors |
-
-### Healing
-
-Each day spent in a safe haven (i.e. in a town) doing nothing but resting recovers one slot.
-
-### Relaxation
-
-After being at full health, characters may simply spend their time relaxing. If a week is spent resting, they get +1
-hitpoint per level on their next adventure.
-
 
 ### Career Training
 
@@ -127,6 +140,44 @@ scales (fireproofing). Harvesting a monster part requires one 10-minute turn and
 or plants take up at least one slot, due to the packaging and fluids they must be preserved in.
 
 ### Magical Research
+
+#### Creating an Arcane Library
+
+An arcane library is a collection of books, scrolls, and rare tomes that serve as a reference to opaque and cryptic
+truths. It is used in creating magical and alchemical items, researching new spells, and creating constructs and
+crossbreeds. In order to possess an arcane library, 800 square feet of space is needed. A scribe must be hired full time
+to attend the library and keep it in good condition. If no scribe is hired, the library loses value over time as
+references are lost or destroyed. In order to research new spells, characters need an arcane library equal to 10,000 gp
+times the level of the spell or the research costs are doubled.
+
+Assembling the library itself takes time - in a city one can spend 1,000gp/10,000 residents of the city/week to acquire
+the necessary texts, outside of a city charaters must acquire [rumors](#rumors) for leads on likely tomes.
+
+#### Researching new Spells
+
+Spellbooks, or any other thing that allows someone to cast spells, cannot be bought with money.
+
+However, with a sufficient [arcane library](#creating-an-arcane-library) and time, one can find leads on where spellbooks, or other beings or items
+that can grant magical power can be found and how they can be induced to lend their power. Doing so costs 2,000gp and
+two weeks per spell level to research.
+
+#### Creating Magic items
+
+Characters whose Intelligence + Wisdom equal at least 5 and whose level equals at least 5 may create magic items.
+
+In order to craft magical or alchemical items, characters must first have a formula. Characters may acquire a formula
+automatically by breaking down an existing item, or by researching. Researching an uncommon item formula costs 100 gp a
+week, a rare item formula costs 500 gp per week, and a very rare item formula costs 1,000 gp per week. This requires 1d8
+weeks of research, -1 if the characters Intelligence is at least 4 or -2 weeks if the character's Intelligence is at
+least 6, and -1 for an [arcane library](#creating-an-arcane-library) greater than 50,000 gp. Research always takes a
+minimum of one week.
+
+The formula will inform the player how much gold, and how many rare materials the character will need in order to craft
+the item. An alchemical item takes 1 day to craft per 50 gold pieces of its cost. A magical item takes 1 day to craft
+for every 500 gold pieces of its cost.
+
+Alchemical and magic items require a successful ability check to craft. Magic items also require a skilled crafter to
+create the item. On a failure it requires the expenditure of time again; on a critical failure the materials are ruined.
 
 ### Practicing a Profession
 
@@ -188,6 +239,47 @@ Why would characters acquire followers? Each follower provides spiritual energy 
 per month for any magical or construction activity the character engages in. This lowers the cost of crafting items, or
 researching new spells. It can also lower the cost of any construction projects relevant to the cause characters take on
 in the interim, because the character's loyal followers work and donate their time without recompenses.
+
+### Real Estate and Construction
+
+#### Buying Buildings
+
+The following costs are approximate and can be affected by a building’s condition, importance, size, etc. Players can
+estimate the cost of custom buildings by summing the costs of several buildings that could make it up.
+
+Note that money may not be sufficient to buy a building - it must be for sale, and the characters' social standing in
+town should be such that people would find it acceptable. Increasing one's
+[lifestyle](#lifestyles-of-the-rash-and-the-foolish) (and bribing townsfolk) go a long way in this regard.
+
+| Building | Cost |
+|----------|-----:|
+| Poor hovel | 100 |
+| Humble Cottage | 1k |
+| Respectable house, chapel | 10k |
+| Wealthy house, guildhall, theater, warehouse | 50k |
+| Church, stone tower | 100k |
+| Small castle | 2m |
+| Minor noble's mansion, temple, medium castle | 8m |
+| Large castle | 32m |
+| Major noble's estate, cathedral | 100m |
+| Imperial palace, basilica | 400m |
+
+#### Construction
+
+The table below lists the cost to build a 5’ square of a building in various levels of luxury and using different
+materials. Ceilings are assumed to be 10 feet. Staffing a (non-business) building costs 50% of its cost per year.
+
+Note that, before a building can be built, the land on which it is to be built must be owned by the character.
+
+| Room Style | Cost |
+|------------|-----:|
+| **Poor** Mud walls, thatched roof, dirt floors | 10 |
+| **Humble** Wattle and daub walls, with some brick or fieldstone, thatched roofs, reed floors | 50 |
+| **Respectable** Wood or brick walls,  shingled roof, wood floors | 250 |
+| **Wealthy** Mostly stone walls with wood and brick ornamentation, shngled roof, wood floors. Also the cost for 5' cube of defensive stone wall | 1,000 |
+| **Minor Nobles and Castles** Stone walls, flagstone floors, some glass and marble, architectural flourish | 5,000 |
+| **Major Nobles** Stone walls & roof, tiled floors, glass windows, high ceilings, truly artistic design | 50,000 |
+| **Royal** Marble walls, stone roof, marble floors, glass windows, a sublime work that will become a biword for taste and luxury | 100,000 |
 
 ### Protégés and Inheritance
 
