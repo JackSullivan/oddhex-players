@@ -41,6 +41,8 @@ sass:
   sass_dir: css
 
 navbar:
+  - name: "Wilderness Travel"
+    link: "wilderness"
   - name: "Expedition Reports"
     link: "posts"
   - name: "Explored Locales"
