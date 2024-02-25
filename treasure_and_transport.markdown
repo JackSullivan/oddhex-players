@@ -2,9 +2,6 @@
 layout: default
 ---
 
-* Contents
-{:toc}
-
 # Treasure and Transport
 
 In Knave, the primary way characters gain XP is by bringing treasure back to a safe haven. The value of returned
