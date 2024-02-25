@@ -41,6 +41,10 @@ sass:
   sass_dir: css
 
 navbar:
+  - name: "Treasure & Transport"
+    link: "treasure_and_transport"
+  - name: "Downtime Procedures"
+    link: "downtime"
   - name: "Wilderness Travel"
     link: "wilderness"
   - name: "Expedition Reports"
